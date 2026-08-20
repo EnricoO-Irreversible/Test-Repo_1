@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.tex   text diff=tex
+*.bib   text merge=union
+*.pdf   binary
+*.png   binary

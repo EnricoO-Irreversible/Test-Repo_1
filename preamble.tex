@@ -1,0 +1,31 @@
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{bm}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{graphicx}
+\graphicspath{{figures/}{../figures/}}
+\usepackage[colorlinks=true,allcolors=blue]{hyperref}
+\usepackage[capitalise,nameinlink]{cleveref}
+
+% --- revision markup ---
+\definecolor{dgreencol}{RGB}{20,110,40}
+\definecolor{dbluecol}{RGB}{20,60,180}
+\newcommand{\dgreen}[1]{\textcolor{dgreencol}{#1}}
+\newcommand{\dblue}[1]{\textcolor{dbluecol}{#1}}
+
+% --- theorem environments ---
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{hypothesis}[theorem]{Hypothesis}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+% --- macros ---
+\newcommand{\T}{\mathbb{T}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\DeclareMathOperator{\poly}{poly}
+\DeclareMathOperator{\Tr}{Tr}
