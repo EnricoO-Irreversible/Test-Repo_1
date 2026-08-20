@@ -4,6 +4,7 @@
 *.fdb_latexmk
 *.fls
 *.log
+*Notes.bib
 *.out
 *.toc
 *.synctex.gz
